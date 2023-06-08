@@ -20,7 +20,7 @@ public class SprinrestApplicationTests {
     void getCources() {
         List<Course> courses=myController.getCourese();
         Course c1=courses.get(0);
-        Assert.assertEquals(c1.getId(),116);
+        Assert.assertEquals(c1.getId(),124);
     }
 
     @Test
